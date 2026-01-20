@@ -100,4 +100,5 @@ public class UserLeaveReport {
     public void setUser(User user) {
         this.user = user;
     }
+
 }
