@@ -9,17 +9,11 @@ public interface LeaveReportService {
 
     UserLeaveReportDto createLeaveReport(UserLeaveReportDto leaveReportDto);
 
-    // List<UserLeaveReportDto> getAllLeaveReport();
-
     PageResponseDto<UserLeaveReportDto> getAllLeaveReport(int pageNumber, int pageSize, String sortBy, String sortDirection);
 
     UserLeaveReportDto getLeaveReportById(Long id);
 
-    // List<UserLeaveReportDto> getLeaveReportByUserId(Long userId);
-
     PageResponseDto<UserLeaveReportDto> getLeaveReportByUserId(Long userId, int pageNumber, int pageSize, String sortBy, String sortDirection);
-
-    // List<UserLeaveReportDto> getLeaveReportByLeaveType(Long leaveId);
 
     PageResponseDto<UserLeaveReportDto> getLeaveReportByLeaveType(Long leaveId, int pageNumber, int pageSize, String sortBy, String sortDirection);
 
