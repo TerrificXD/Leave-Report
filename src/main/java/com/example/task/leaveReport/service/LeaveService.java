@@ -5,6 +5,7 @@ import com.example.task.leaveReport.entity.Leave;
 
 import java.util.List;
 
+
 public interface LeaveService {
 
     LeaveDto createLeave(LeaveDto leaveDto);
