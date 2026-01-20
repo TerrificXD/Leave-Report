@@ -32,4 +32,5 @@ public class LeaveDto {
     public void setLeaveName(String leaveName) {
         this.leaveName = leaveName;
     }
+
 }
